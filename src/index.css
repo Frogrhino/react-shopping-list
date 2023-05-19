@@ -1,0 +1,31 @@
+#root {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+dialog{
+  min-width: 50%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.suggestions {
+  height: 95%;
+}
+
+.product-description {
+  --max-lines: 1;
+
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines);
+}
+
+.product-image {
+  height: 150px;
+  width: 150px;
+}
